@@ -16,8 +16,8 @@ def comments(c_url):
 
 web.go_to('https://web.talklife.co/login')
 
-web.type('ctf.hestia@gmail.com','Email')
-web.type('Ctf11@11hof','Password')
+web.type('','Email')
+web.type('','Password')
 web.click(text='Login',classname="green")
 
 time.sleep(2)
