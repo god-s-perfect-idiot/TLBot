@@ -65,7 +65,13 @@ def run():
 	time.sleep(2)
 	web.click(tag='a',xpath='/html/body/div/div/div[4]/div[4]/div/div[3]/ul/li[1]/div/div[2]/a')
 
-run()
+while(True):
+	try:
+		run()
+	except:
+		pass
+	time.sleep(180)
+
 
 #address = web.get_current_url()
 #comments(address)
