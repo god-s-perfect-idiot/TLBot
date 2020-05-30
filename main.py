@@ -1,8 +1,10 @@
 import time
+import os
 
 while(True):
 	try:
-		execfile('talklifebot.py')
-	except:
-		time.sleep(60)
+		os.system('talklifebot.py')
+		print("?")
+	except Exception as e:
+		print(e)
 	time.sleep(180)
